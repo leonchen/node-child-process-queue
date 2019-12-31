@@ -1,7 +1,7 @@
 {
-  "name": "child-process-queue",
+  "name": "cp-worker-queue",
   "version": "1.0.0",
-  "description": "Child processes management",
+  "description": "In-memory child process workers executor",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist/* && tsc",
@@ -12,7 +12,8 @@
     "url": "git+https://github.com/leonchen/node-child-process-queue.git"
   },
   "keywords": [
-    "child_process",
+    "child process",
+    "worker",
     "queue"
   ],
   "author": "Leon Chen",

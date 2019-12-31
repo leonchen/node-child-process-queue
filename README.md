@@ -1,5 +1,5 @@
-# node-child-process-queue
-Simple queue for node child processes.
+# cp-worker-queue
+Simple in-memory execution queue for node child processes.
 
 ## Features
 * No dependency
@@ -9,12 +9,12 @@ Simple queue for node child processes.
 
 ## Install
 ```
-npm install child-process-queue
+npm install cp-worker-queue
 ```
 
 ## Usage Example
 ```
-import Queue, { Task } from 'child-process-queue';
+import Queue, { Task } from 'cp-worker-queue';
 const queue = new Queue({
   concurrency: 2,
   timeout: 5000,
